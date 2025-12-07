@@ -10,7 +10,7 @@ it does work with "some" problem locally though
 the modification to Microsoft template are as follow:
 
 1. in App.razor, change baseRef to: (https://MyDomain.ca/Subdir/)
-	<base href="/Subdir/">
+	base href="/Subdir/"
 
 2. Change Program.cs
 	var app = builder.Build();
